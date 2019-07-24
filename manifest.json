@@ -1,0 +1,15 @@
+{
+	"name": "Image Filesize",
+	"description": "Get image filesize",
+	"version": "0.0.1",
+	"permissions": [
+		"contextMenus",
+		"http://*/",
+		"https://*/"
+	],
+	"background": {
+		"persistent": false,
+		"scripts": ["background.js"]
+	},
+	"manifest_version": 2
+}
